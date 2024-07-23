@@ -1,0 +1,18 @@
+.boxDiv {
+    
+    background: var(--black-gradient, radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.4rem 2.4rem 3.2rem;
+    border-radius: 15px;
+    flex-direction: column;
+}
+
+.starIMG {
+    padding: 1rem;
+    border-radius: 50%;
+    background-color: #262E38;
+    align-self: flex-start;
+    margin-bottom: 1.6rem;
+}

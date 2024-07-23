@@ -1,0 +1,46 @@
+button {
+    color: var(--Medium-Gray, #7C8798);
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    letter-spacing: 0.175px;
+    background: var(--Dark-Blue, #262E38);
+    border: none;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--Orange, #FC7614);
+    color: var(--Pure-White, #FFF);
+}
+
+.submitBtn:hover {
+    background: var(--Pure-White, #FFF);
+    color: var(--Orange, #FC7614);
+}
+
+.submitBtn {
+    border-radius: 2.25rem;
+    background: var(--Orange, #FC7614);
+    width: 100%;
+    color: var(--Pure-White, #FFF);
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 1.867px;
+    margin-top: 3.6rem;
+}
+
+.buttonsDiv {
+    width: 100%;
+    margin-top: 2.4rem;
+}
+
+.score {
+    display: flex;
+    justify-content: space-between;
+    
+}
